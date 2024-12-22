@@ -1,0 +1,118 @@
+/* General Styles */
+.lesson-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .lesson-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .lesson-header h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .lesson-meta {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  .lesson-meta span {
+    margin-right: 15px;
+  }
+  
+  /* Main Content Layout */
+  .lesson-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .lesson-video {
+    flex: 0 0 70%;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .lesson-sidebar {
+    flex: 0 0 28%;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+  }
+  
+  .lesson-video video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-description {
+    margin-top: 20px;
+  }
+  
+  .video-description h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .video-description p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Lesson Sidebar */
+  .lesson-sidebar h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .lesson-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .lesson-list li {
+    margin-bottom: 12px;
+  }
+  
+  .lesson-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .lesson-list li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .lesson-content {
+      flex-direction: column;
+    }
+  
+    .lesson-video {
+      flex: 1;
+      margin-bottom: 20px;
+    }
+  
+    .lesson-sidebar {
+      flex: 1;
+    }
+  }
+  
